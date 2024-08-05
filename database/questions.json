@@ -1,0 +1,107 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Hola!🤗\nSoy CETERNI, estoy aquí para ayudarte! Puedes estar tranquilo lo que me cuentes será anónimo y confidencial.\n¿Cuál es tu nombre?",
+      "category": "general"
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es tu edad?",
+      "category": "general"
+    },
+    {
+      "id": 3,
+      "question": "¿Con qué género te identificas?",
+      "category": "general"
+    },
+    {
+      "id": 4,
+      "question": "A continuación te haré unas breves preguntas, responde con sinceridad para poder ayudarte:\nEn las últimas dos semanas:\n¿Has tenido pensamientos de que sería mejor estar muerto o que quisieras hacerte daño de alguna forma buscando morir?",
+      "category": "depression",
+      "options": {
+        "0": "Para nada",
+        "1": "Varios días",
+        "2": "La mayoría de los días",
+        "3": "Casi todos los días"
+      }
+    },
+    {
+      "id": 5,
+      "question": "¿Puedes hablar abierta y honestamente con los miembros de tu familia?",
+      "category": "family",
+      "options": {
+        "0": "Totalmente en desacuerdo ",
+        "1": "En desacuerdo",
+        "2": "Neutral",
+        "3": "De acuerdo",
+        "4": "Totalmente de acuerdo"
+      }
+    },
+    {
+      "id": 6,
+      "question": "¿En general, te llevas bien con familia?.",
+      "category": "family",
+      "options": {
+        "0": "Totalmente en desacuerdo ",
+        "1": "En desacuerdo",
+        "2": "Neutral",
+        "3": "De acuerdo",
+        "4": "Totalmente de acuerdo"
+      }
+    },
+    {
+      "id": 7,
+      "question": "Sientes que puedes contar el apoyo de tu familia?",
+      "category": "family",
+      "options": {
+        "0": "Totalmente en desacuerdo ",
+        "1": "En desacuerdo",
+        "2": "Neutral",
+        "3": "De acuerdo",
+        "4": "Totalmente de acuerdo"
+      }
+    },
+    {
+      "id": 8,
+      "question": "En las últimas dos semanas:\n¿Tienes pocas ganas o interés en hacer las cosas?",
+      "category": "depression",
+      "options": {
+        "0": "Para nada",
+        "1": "Varios días",
+        "2": "La mayoría de los días",
+        "3": "Casi todos los días"
+      }
+    },
+    {
+      "id": 9,
+      "question": "En las últimas dos semanas:\n¿Te has sentido desanimado, triste o sin esperanza?",
+      "category": "depression",
+      "options": {
+        "0": "Para nada",
+        "1": "Varios días",
+        "2": "La mayoría de los días",
+        "3": "Casi todos los días"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "general",
+      "name": "General"
+    },
+    {
+      "id": "depression",
+      "name": "Depresión",
+      "type": "negative",
+      "punctuation": "0"
+    },
+    {
+      "id": "family",
+      "name": "Familia",
+      "type": "positive",
+      "punctuation": "5"
+    }
+  ],
+  "phrases": {}
+}

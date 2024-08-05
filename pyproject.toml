@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["micode1502"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.28.1"
+langchain = "^0.0.304"
+pinecone-client = "^2.2.4"
+python-dotenv = "^1.0.0"
+tiktoken = "^0.5.1"
+twilio = "^8.10.0"
+flask = "^3.0.0"
+chromadb = "^0.4.15"
+mysql-connector-python = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
